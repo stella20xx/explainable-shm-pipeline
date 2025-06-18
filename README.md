@@ -14,7 +14,7 @@ All components operate without manual labels, deep models, or parameter tuning, 
 ## 📊 Key Visual Results
 
 ### 🔹 SOM-Based Class Discovery & Feature Attribution
-![SOM Classification](./figures/Explainable_SOM_Clustering _For_CrackAnalysis_XSun.png)
+![SOM Classification](./figures/Explainable_SOM_Clustering_For_CrackAnalysis_XSun.png)
 
 - Auto-selects class number using elbow method
 - Identifies pixel-wise structure using grayscale, contrast, hue, edge, and geometry features
