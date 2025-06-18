@@ -74,4 +74,5 @@ All overlaid outputs (SOM masks, pseudo-thermal maps, CNN segmentation) are orig
 Structural Engineering, University of Maryland  
 📧 xinxin68@umd.edu  
 🗓️ May 2025  
-Preprints available at: *[EngrXiv / TechRxiv links, if available]*  
+Preprints available at: https://doi.org/10.31224/4701
+                        https://doi.org/10.31224/4697
