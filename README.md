@@ -49,6 +49,8 @@ All components operate without manual labels, deep models, or parameter tuning, 
 
 ---
 
+🔒 Source code will be released upon formal publication of the associated research article.
+
 ## 📁 Repository Structure
 
 
