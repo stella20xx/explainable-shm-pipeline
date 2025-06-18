@@ -53,6 +53,24 @@ All components operate without manual labels, deep models, or parameter tuning, 
 
 ## 📁 Repository Structure
 
+---
+
+## 🌐 System-Level Vision: Crowdsourced Smart City SHM
+
+To extend this work toward scalable urban deployment, I propose a vision for **crowdsourced, sensor-free SHM** leveraging public vehicles as mobile sensing agents.
+
+📌 Key ideas:
+- Vehicles act as roaming data collectors via dashcams, accelerometers, and GPS.
+- Visual/audio signals are uploaded through a mobile app, receiving rewards (ads, coupons) for contributions.
+- Structural anomalies are identified using SOM-based diagnostics without requiring dense sensor networks.
+- Aggregated data can support city-scale infrastructure monitoring at low cost.
+
+This system complements existing fiber-based or edge-sensor SHM frameworks, offering **a lightweight, decentralized alternative** for urban resilience monitoring.
+
+📄 [Smart_SHM_Whitepaper.pdf](docs/Smart_SHM_Whitepaper.pdf)  
+🖼️ ![System Overview](figures/Smart_SHM_Schematic.png)
+
+> *Concept under refinement – inspired by early 2015 idea notes and now integrated with recent vision-based SHM progress.*
 
 ---
 
