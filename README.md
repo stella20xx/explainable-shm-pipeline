@@ -96,3 +96,4 @@ Structural Engineering, University of Maryland
 🗓️ May 2025  
 Preprints available at: https://doi.org/10.31224/4701
                         https://doi.org/10.31224/4697
+                        https://doi.org/10.31224/4706 
