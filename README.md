@@ -29,12 +29,17 @@ All components operate without manual labels, deep models, or parameter tuning, 
 - Trains CNN without manual segmentation
 - Supports multi-material crack detection (concrete, brick, shadowed)
 
-![Crack Diagnostic Generalization](./assets/cnnsom.png)
+## 🔍 Visual Summary: Generalization & Pseudo-Labeling via SOM
 
-**Figure**: *Cross-substrate segmentation results from our SOM-guided framework.*  
-Top: Concrete cracks; Bottom: Brick cracks. Our method achieves robust generalization across substrates **without domain-specific training**.  
-The SOM-based pseudo-labeling also enables efficient CNN segmentation training while dramatically reducing annotation cost.
+![Crack Diagnostic Generalization](./figures/cnnsom.png)
 
+**Figure: Robust crack diagnostics across diverse substrates using our SOM-guided framework.**  
+Top: Concrete cracks; Bottom: Brick cracks.  
+
+Our method demonstrates strong **cross-domain generalization** powered by **unsupervised feature clustering**, achieving accurate segmentation without labor-intensive, domain-specific training.  
+It also enables efficient **pseudo-labeling** for CNN models, significantly reducing annotation costs in complex, multi-crack scenarios.
+
+> This figure showcases the practicality of interpretable SHM vision pipelines in real-world diagnostics.
 
 ---
 
