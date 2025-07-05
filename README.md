@@ -29,7 +29,7 @@ All components operate without manual labels, deep models, or parameter tuning, 
 - Trains CNN without manual segmentation
 - Supports multi-material crack detection (concrete, brick, shadowed)
 
-![Crack Diagnostic Generalization](./assets/b63b9548-70e3-413c-b26e-5084cf5ed560.png)
+![Crack Diagnostic Generalization](./assets/cnnsom.png)
 
 **Figure**: *Cross-substrate segmentation results from our SOM-guided framework.*  
 Top: Concrete cracks; Bottom: Brick cracks. Our method achieves robust generalization across substrates **without domain-specific training**.  
