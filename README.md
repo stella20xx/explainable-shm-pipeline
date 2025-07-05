@@ -8,6 +8,18 @@ This repository presents a fully automated, training-free, label-free, and inter
 - **Thermal field mimicry** from RGB imagery (no IR sensor)
 
 All components operate without manual labels, deep models, or parameter tuning, and can support robust SHM diagnostics in field conditions.
+## 🌟 Highlights
+
+- **Zero-Label SHM Pipeline**: No human annotations, no pretrained weights, no tuning.
+- **SOM-Guided Vision Framework**: Clusters pixel-level features for interpretable segmentation.
+- **Cross-Material Generalization**: One model segments cracks in concrete, brick, and shadowed surfaces—no domain-specific retraining.
+- **CNN Pseudo-Labeling**: Auto-generates labels for CNNs, minimizing annotation costs.
+- **Geometric Correction**: Unsupervised KAZE + RANSAC alignment enables crack evolution tracking.
+- **Sensor-Free Thermal Proxy**: Pseudo-thermal degradation maps inferred from RGB images (no IR needed).
+- **Open-Source, Deployable**: Lightweight, interpretable, and adaptable to field constraints.
+
+> Designed for real-world SHM needs: explainability, zero annotation, deployment readiness.
+
 
 ---
 
