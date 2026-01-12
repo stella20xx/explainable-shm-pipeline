@@ -77,7 +77,21 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 
 ## 📁 Repository Structure
 
----
+```text
+/code
+  concrete.png                  # Example concrete crack image used in the SOM demo
+  concrete_crack_som_demo.m     # End-to-end SOM crack segmentation + auto cleaning
+  concrete_crack_som_demo_no.m  # Variant used for ablation / feature-removal studies
+
+/docs
+  Smart_SHM_Whitepaper.pdf      # Crowdsourced smart-city SHM concept note
+
+/figures
+  *.png                         # Figures used in the README and paper
+
+XSun_SHM_Visual_Research_Portfolio.pdf  # Visual research portfolio (PDF)
+README.md                                 # This file
+
 
 ## 🌐 System-Level Vision: Crowdsourced Smart City SHM
 
