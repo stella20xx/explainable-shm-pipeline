@@ -81,7 +81,6 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 
 - [`code/concrete.png`](./code/concrete.png) – Example concrete crack image  
 - [`code/concrete_crack_som_demo.m`](./code/concrete_crack_som_demo.m) – End-to-end SOM crack segmentation + auto-cleaning (concrete)  
-- [`code/concrete_crack_som_demo_no.m`](./code/concrete_crack_som_demo_no.m) – Ablation / feature-removal variant for concrete  
 
 - [`code/brick.png`](./code/brick.png) – Example brick-wall crack image  
 - [`code/brick_crack_som_demo.m`](./code/brick_crack_som_demo.m) – SOM crack segmentation + auto-cleaning (brick)  
