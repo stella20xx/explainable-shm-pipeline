@@ -77,25 +77,29 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 
 ## 📁 Repository Structure
 
-### /code
-- concrete.png – Example concrete crack image
-- concrete_crack_som_demo.m – End-to-end SOM crack segmentation + auto-cleaning (concrete)
-- concrete_crack_som_demo_no.m – Ablation / feature-removal variant for concrete
+### Code
 
-- brick.png – Example brick-wall crack image
-- brick_crack_som_demo.m – SOM crack segmentation + auto-cleaning (brick)
+- [`code/concrete.png`](./code/concrete.png) – Example concrete crack image  
+- [`code/concrete_crack_som_demo.m`](./code/concrete_crack_som_demo.m) – End-to-end SOM crack segmentation + auto-cleaning (concrete)  
+- [`code/concrete_crack_som_demo_no.m`](./code/concrete_crack_som_demo_no.m) – Ablation / feature-removal variant for concrete  
 
-- shadow.png – Example shadow-affected crack image
-- shadow_crack_som_demo.m – SOM crack segmentation + auto-cleaning under strong shadows
+- [`code/brick.png`](./code/brick.png) – Example brick-wall crack image  
+- [`code/brick_crack_som_demo.m`](./code/brick_crack_som_demo.m) – SOM crack segmentation + auto-cleaning (brick)  
 
-### /docs
-- Smart_SHM_Whitepaper.pdf – Crowdsourced smart-city SHM concept note
-- XSUN_SHM_Visual_Research_Portfolio.pdf – Visual research portfolio
+- [`code/shadow.png`](./code/shadow.png) – Example shadow-affected crack image  
+- [`code/shadow_crack_som_demo.m`](./code/shadow_crack_som_demo.m) – SOM crack segmentation + auto-cleaning under strong shadows  
 
-### /figures
-- Figures used in the README and associated paper(s)
+### Docs
 
-- README.md – This file
+- [`docs/Smart_SHM_Whitepaper.pdf`](./docs/Smart_SHM_Whitepaper.pdf) – Crowdsourced smart-city SHM concept note  
+- [`docs/XSUN_SHM_Visual_Research_Portfolio.pdf`](./docs/XSUN_SHM_Visual_Research_Portfolio.pdf) – Visual research portfolio  
+
+### Figures
+
+- [`figures/`](./figures) – Figures used in the README and associated paper(s)  
+
+- `README.md` – This file
+
 
 
 ## 🌐 System-Level Vision: Crowdsourced Smart City SHM
