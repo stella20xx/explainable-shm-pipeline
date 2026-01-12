@@ -129,7 +129,7 @@ All overlaid outputs (SOM masks, pseudo-thermal maps, CNN segmentation) are orig
 
 **Xinxin Sun, Ph.D.**  
 Structural Engineering, University of Maryland  
-📧 xinxin68@umd.edu  
+📧 xinxin68@terpmail.umd.edu  
 🗓️ May 2025  
 Preprints available at: https://doi.org/10.31224/4701
                         https://doi.org/10.31224/4697
