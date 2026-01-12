@@ -91,7 +91,7 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 ### Docs
 
 - [`docs/Smart_SHM_Whitepaper.pdf`](./docs/Smart_SHM_Whitepaper.pdf) – Crowdsourced smart-city SHM concept note  
-- [`docs/XSUN_SHM_Visual_Research_Portfolio.pdf`](./docs/XSUN_SHM_Visual_Research_Portfolio.pdf) – Visual research portfolio  
+- [`docs/XSUN_SHM_Visual_Research_Portfolio.pdf`](./docs/XSun_SHM_Visual_Research_Portfolio.pdf) – Visual research portfolio  
 
 ### Figures
 
