@@ -77,19 +77,25 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 
 ## 📁 Repository Structure
 
-- [`/code`](./code)  
-  - `concrete.png` – Example input image  
-  - `concrete_crack_som_demo.m` – End-to-end SOM crack segmentation + auto cleaning  
-  - `concrete_crack_som_demo_no.m` – Ablation / feature-removal variant  
+### /code
+- concrete.png – Example concrete crack image
+- concrete_crack_som_demo.m – End-to-end SOM crack segmentation + auto-cleaning (concrete)
+- concrete_crack_som_demo_no.m – Ablation / feature-removal variant for concrete
 
-- [`/docs`](./docs)  
-  - `Smart_SHM_Whitepaper.pdf` – Crowdsourced smart-city SHM concept note  
-  - `XSUN_SHM_Visual_Research_Portfolio.pdf` – Visual research portfolio  
+- brick.png – Example brick-wall crack image
+- brick_crack_som_demo.m – SOM crack segmentation + auto-cleaning (brick)
 
-- [`/figures`](./figures) – Figures used in README and paper  
+- shadow.png – Example shadow-affected crack image
+- shadow_crack_som_demo.m – SOM crack segmentation + auto-cleaning under strong shadows
 
-- `README.md` – This file
+### /docs
+- Smart_SHM_Whitepaper.pdf – Crowdsourced smart-city SHM concept note
+- XSUN_SHM_Visual_Research_Portfolio.pdf – Visual research portfolio
 
+### /figures
+- Figures used in the README and associated paper(s)
+
+- README.md – This file
 
 
 ## 🌐 System-Level Vision: Crowdsourced Smart City SHM
