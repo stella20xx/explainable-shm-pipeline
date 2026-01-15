@@ -119,6 +119,11 @@ This system complements existing fiber-based or edge-sensor SHM frameworks, offe
 > *Concept under refinement – inspired by early 2015 idea notes and now integrated with recent vision-based SHM progress.*
 
 ---
+### 🔹 End-to-End Pipeline: Shipborne Data Upload to Cloud AI for Anomaly Detection and Early Warning
+![End-to-End Pipeline: Shipborne Data Upload to Cloud AI for Anomaly Detection and Early Warning](./figures/End-to-End%20Pipeline:%20Shipborne%20Data%20Upload%20to%20Cloud%20AI%20for%20Anomaly%20Detection%20and%20Early%20Warning.png)
+
+**Figure: End-to-end shipborne sensing → cloud AI anomaly detection → earthquake/tsunami early warning.**
+
 
 ## 📄 Attribution
 
