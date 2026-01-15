@@ -2,24 +2,24 @@
 
 This repository presents a fully automated, training-free, label-free, and interpretable visual diagnostic system for structural health monitoring (SHM). The system includes:
 
-- **SOM-based crack region segmentation** using 9 visual-statistical features
-- **Pseudo-label generation** to train CNNs without human annotation
-- **Geometric alignment** for crack evolution tracking via KAZE + RANSAC
-- **Thermal field mimicry** from RGB imagery (no IR sensor)
+- **SOM-based crack region segmentation** using 9 visual-statistical features  
+- **Pseudo-label generation** to train CNNs without human annotation  
+- **Geometric alignment** for crack evolution tracking via KAZE + RANSAC  
+- **Thermal field mimicry** from RGB imagery (no IR sensor)  
 
 All components operate without manual labels, deep models, or parameter tuning, and can support robust SHM diagnostics in field conditions.
+
 ## 🌟 Highlights
 
-- **Zero-Label SHM Pipeline**: No human annotations, no pretrained weights, no tuning.
-- **SOM-Guided Vision Framework**: Clusters pixel-level features for interpretable segmentation.
-- **Cross-Material Generalization**: One model segments cracks in concrete, brick, and shadowed surfaces—no domain-specific retraining.
-- **CNN Pseudo-Labeling**: Auto-generates labels for CNNs, minimizing annotation costs.
-- **Geometric Correction**: Unsupervised KAZE + RANSAC alignment enables crack evolution tracking.
-- **Sensor-Free Thermal Proxy**: Pseudo-thermal degradation maps inferred from RGB images (no IR needed).
-- **Open-Source, Deployable**: Lightweight, interpretable, and adaptable to field constraints.
+- **Zero-Label SHM Pipeline**: No human annotations, no pretrained weights, no tuning.  
+- **SOM-Guided Vision Framework**: Clusters pixel-level features for interpretable segmentation.  
+- **Cross-Material Generalization**: One model segments cracks in concrete, brick, and shadowed surfaces—no domain-specific retraining.  
+- **CNN Pseudo-Labeling**: Auto-generates labels for CNNs, minimizing annotation costs.  
+- **Geometric Correction**: Unsupervised KAZE + RANSAC alignment enables crack evolution tracking.  
+- **Sensor-Free Thermal Proxy**: Pseudo-thermal degradation maps inferred from RGB images (no IR needed).  
+- **Open-Source, Deployable**: Lightweight, interpretable, and adaptable to field constraints.  
 
 > Designed for real-world SHM needs: explainability, zero annotation, deployment readiness.
-
 
 ---
 
@@ -28,18 +28,20 @@ All components operate without manual labels, deep models, or parameter tuning, 
 ### 🔹 SOM-Based Class Discovery & Feature Attribution
 ![SOM Classification](./figures/Explainable_SOM_Clustering_For_CrackAnalysis_XSun.png)
 
-- Auto-selects class number using elbow method
-- Identifies pixel-wise structure using grayscale, contrast, hue, edge, and geometry features
-- Radar plot visualizes class-wise feature attribution
+- Auto-selects class number using elbow method  
+- Identifies pixel-wise structure using grayscale, contrast, hue, edge, and geometry features  
+- Radar plot visualizes class-wise feature attribution  
 
 ---
 
 ### 🔹 CNN Training via SOM Pseudo-Labels
 ![CNN Pseudo Labels](./figures/Figure_CNN_SOM_PseudoLabel_Strategies_XSun_May2025.png)
 
-- SOM generates masks for crack types
-- Trains CNN without manual segmentation
-- Supports multi-material crack detection (concrete, brick, shadowed)
+- SOM generates masks for crack types  
+- Trains CNN without manual segmentation  
+- Supports multi-material crack detection (concrete, brick, shadowed)  
+
+---
 
 ## 🔍 Visual Summary: Generalization & Pseudo-Labeling via SOM
 
@@ -56,29 +58,30 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 ---
 
 ### 🔹 KAZE-RANSAC Crack Alignment
-![KAZE RANSAC](./figures/PerspectiveCorrection_CrackEvolution_KAZE_RANSAC_XSun.png.png)
+![KAZE RANSAC](./figures/PerspectiveCorrection_CrackEvolution_KAZE_RANSAC_XSun.png)
 
-- Robust unsupervised image alignment under field-induced distortion
-- Tracks crack trajectories across time and angle changes
-- Aligns images without ground-truth keypoints
+- Robust unsupervised image alignment under field-induced distortion  
+- Tracks crack trajectories across time and angle changes  
+- Aligns images without ground-truth keypoints  
 
 ---
 
 ### 🔹 Pseudo-Thermal Visualization (No IR Sensor)
-![Thermal Proxy](./figures/SOM_Thermal_Mimicry_XSun_May2025.png.png)
+![Thermal Proxy](./figures/SOM_Thermal_Mimicry_XSun_May2025.png)
 
-- Simulates heat-like gradients around cracks using visual feature clustering
-- Enables thermal-style visualization without IR hardware
-- Supports sensor-free localization and monitoring
+- Simulates heat-like gradients around cracks using visual feature clustering  
+- Enables thermal-style visualization without IR hardware  
+- Supports sensor-free localization and monitoring  
 
 ---
 
-🔒 Source code will be released upon formal publication of the associated research article.
+🔓 **Core MATLAB demo scripts are available in `/code`.** Additional modules and documentation will be expanded alongside publication timelines.
+
+---
 
 ## 📁 Repository Structure
 
 ### Code
-
 - [`code/concrete.png`](./code/concrete.png) – Example concrete crack image  
 - [`code/concrete_crack_som_demo.m`](./code/concrete_crack_som_demo.m) – End-to-end SOM crack segmentation + auto-cleaning (concrete)  
 
@@ -89,27 +92,24 @@ It also enables efficient **pseudo-labeling** for CNN models, significantly redu
 - [`code/shadow_crack_som_demo.m`](./code/shadow_crack_som_demo.m) – SOM crack segmentation + auto-cleaning under strong shadows  
 
 ### Docs
-
 - [`docs/Smart_SHM_Whitepaper.pdf`](./docs/Smart_SHM_Whitepaper.pdf) – Crowdsourced smart-city SHM concept note  
 - [`docs/XSUN_SHM_Visual_Research_Portfolio.pdf`](./docs/XSun_SHM_Visual_Research_Portfolio.pdf) – Visual research portfolio  
 
 ### Figures
-
 - [`figures/`](./figures) – Figures used in the README and associated paper(s)  
+- `README.md` – This file  
 
-- `README.md` – This file
-
-
+---
 
 ## 🌐 System-Level Vision: Crowdsourced Smart City SHM
 
 To extend this work toward scalable urban deployment, I propose a vision for **crowdsourced, sensor-free SHM** leveraging public vehicles as mobile sensing agents.
 
 📌 Key ideas:
-- Vehicles act as roaming data collectors via dashcams, accelerometers, and GPS.
-- Visual/audio signals are uploaded through a mobile app, receiving rewards (ads, coupons) for contributions.
-- Structural anomalies are identified using SOM-based diagnostics without requiring dense sensor networks.
-- Aggregated data can support city-scale infrastructure monitoring at low cost.
+- Vehicles act as roaming data collectors via dashcams, accelerometers, and GPS.  
+- Visual/audio signals are uploaded through a mobile app, receiving rewards (ads, coupons) for contributions.  
+- Structural anomalies are identified using SOM-based diagnostics without requiring dense sensor networks.  
+- Aggregated data can support city-scale infrastructure monitoring at low cost.  
 
 This system complements existing fiber-based or edge-sensor SHM frameworks, offering **a lightweight, decentralized alternative** for urban resilience monitoring.
 
@@ -140,6 +140,8 @@ All overlaid outputs (SOM masks, pseudo-thermal maps, CNN segmentation) are orig
 Structural Engineering, University of Maryland  
 📧 xinxin68@terpmail.umd.edu  
 🗓️ May 2025  
-Preprints available at: https://doi.org/10.31224/4701
-                        https://doi.org/10.31224/4697
-                        https://doi.org/10.31224/4706 
+
+Preprints available at:  
+- https://doi.org/10.31224/4701  
+- https://doi.org/10.31224/4697  
+- https://doi.org/10.31224/4706  
