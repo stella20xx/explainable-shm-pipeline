@@ -123,29 +123,44 @@ This system complements existing fiber-based or edge-sensor SHM frameworks, offe
 ![End-to-End Pipeline: Shipborne Data Upload to Cloud AI for Anomaly Detection and Early Warning](./figures/End-to-End%20Pipeline%20Shipborne%20Data%20Upload%20to%20Cloud%20AI%20for%20Anomaly%20Detection%20and%20Early%20Warning.png)
 
 **Figure: End-to-end shipborne sensing → cloud AI anomaly detection → earthquake/tsunami early warning.**
+## 📌 Citation
 
+If you use this work in academic research, please cite:
 
+    @article{SunChang2026SOMCrack,
+      title   = {Unsupervised and noise-resilient crack detection in concrete and masonry via self-organizing maps},
+      author  = {Sun, Xinxin and Chang, Peter},
+      journal = {Engineering Structures},
+      year    = {2026},
+      doi     = {10.1016/j.engstruct.2026.122130},
+      note    = {Article 122130}
+    }
 
 ## 📄 Attribution
 
-Some crack image backgrounds used in the demo visualizations were sourced from the:
+Some crack image backgrounds used in the demo visualizations were sourced from:
 
-- **CrackTAV Dataset**  
-  GitHub: https://github.com/Chensq-cug/CrackTAV_dataset  
-  License: MIT License  
-  Author: [Chensq-cug](https://github.com/Chensq-cug)
+- CrackTAV Dataset
+  GitHub: https://github.com/Chensq-cug/CrackTAV_dataset
+  License: MIT License
+  Author: https://github.com/Chensq-cug
 
-These images are used strictly for **non-commercial, academic research** demonstration.  
-All overlaid outputs (SOM masks, pseudo-thermal maps, CNN segmentation) are original works by **Xinxin Sun** (May 2025).
+These images are used strictly for non-commercial, academic research demonstration.
+All overlaid outputs (SOM masks, pseudo-thermal maps, CNN segmentation) are original works by Xinxin Sun (May 2025).
 
 ---
 
 ## 📬 Contact
 
-**Xinxin Sun, Ph.D.**  
-Structural Engineering, University of Maryland  
-📧 xinxin68@terpmail.umd.edu  
-🗓️ May 2025  
-Preprints available at: https://doi.org/10.31224/4701
-                        https://doi.org/10.31224/4697
-                        https://doi.org/10.31224/4706
+Xinxin Sun, Ph.D.
+Structural Engineering, University of Maryland
+📧 xinxin68@terpmail.umd.edu
+
+Paper (Engineering Structures, Open Access): https://doi.org/10.1016/j.engstruct.2026.122130
+
+Preprints available at:
+- https://doi.org/10.31224/4697
+- https://doi.org/10.31224/4706
+
+🗓️ Updated: Jan 2026
+
